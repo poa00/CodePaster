@@ -22,7 +22,9 @@
 #include "codepaster.h"
 #include "codeeditorwindow.h"
 #include "searchwindow.h"
+#ifdef Q_OS_WIN
 #include <windows.h>
+#endif
 #include <QtCore>
 #include "codebase.h"
 
