@@ -30,7 +30,7 @@ extern CodeBase *pCodeBase;
 extern SearchWindow *pSearchWindow;
 
 CodePaster::CodePaster():
-   // m_settings(QSettings::IniFormat, QSettings::UserScope,"KciRay", "CodePaster")
+   // m_settings(QSettings::IniFormat, QSettings::UserScope,"POA", "Paste")
   m_settings(QApplication::applicationDirPath()+"/config.ini", QSettings::IniFormat)
 {
 #ifdef Q_OS_WIN
